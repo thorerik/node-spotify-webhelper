@@ -1,5 +1,5 @@
 {
-  "name": "node-spotify-webhelper",
+  "name": "spotify-webhelper",
   "version": "0.0.6",
   "description": "Node.js interface for the local Spotify WebHelper API",
   "main": "index.js",
@@ -18,9 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nadavbar/node-spotify-webhelper.git"
+    "url": "git://github.com/thorerik/spotify-webhelper.git"
   },
-  "homepage": "https://github.com/nadavbar/node-spotify-webhelper",
+  "homepage": "https://github.com/thorerik/spotify-webhelper",
   "author": "nadavbar <nadavbar@gmail.com>",
+  "contributors": [
+    "thorerik <thor@thorerik.com>"
+  ],
   "license": "MIT"
 }
