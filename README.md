@@ -1,4 +1,4 @@
-node-spotify-webhelper
+spotify-webhelper
 ======================
 
 Node.js interface for the Spotify WebHelper API, based on this great article: http://cgbystrom.com/articles/deconstructing-spotifys-builtin-http-server/
@@ -18,8 +18,8 @@ This module exposes the SpotifyWebHelper object, which exposes  the following me
 
 Example:
 ```javascript
-var nodeSpotifyWebHelper = require('node-spotify-webhelper');
-var spotify = new nodeSpotifyWebHelper.SpotifyWebHelper();
+var SpotifyWebHelper = require('spotify-webhelper');
+var spotify = new SpotifyWebHelper.SpotifyWebHelper();
 
 // get the name of the song which is currently playing
 spotify.getStatus(function (err, res) {
