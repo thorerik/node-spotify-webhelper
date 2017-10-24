@@ -1,6 +1,6 @@
 {
   "name": "spotify-webhelper",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Node.js interface for the local Spotify WebHelper API",
   "main": "index.js",
   "dependencies": {

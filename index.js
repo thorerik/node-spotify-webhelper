@@ -91,7 +91,7 @@ function isSpotifyWebHelperRunning(cb) {
     return cb(null, true);
   }
 
-  wintools = wintools || require('wintools');
+  wintools = wintools || require('patched-wintools');
   wintools.ps(function (err, lst) {
     if (err) {
       return cb(err);
