@@ -4,11 +4,8 @@
   "description": "Node.js interface for the local Spotify WebHelper API",
   "main": "index.js",
   "dependencies": {
-    "npm-platform-dependencies": "0.0.13",
-    "request": ">=2.36.0"
-  },
-  "win32Dependencies": {
-    "wintools": ">=0.1.0"
+    "request": ">=2.36.0",
+    "patched-wintools": ">=0.2.0"
   },
   "devDependencies": {},
   "keywords": [
